@@ -54,3 +54,6 @@ blocks:
         commands:
           - checkout
           - echo "make docker.push"
+promotions:
+  - name: sxeris
+    pipeline_file: sxeris.yml
